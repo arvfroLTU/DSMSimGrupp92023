@@ -99,7 +99,7 @@ for each in sellerPlaces:
     tempWaypoint = []
     for pair in each:
         
-        with open('Src/Database/Network_Database/shortest_paths.csv', newline='', encoding='utf-8') as csvfile:
+        with open('Database/Network_Database/shortest_paths.csv', newline='', encoding='utf-8') as csvfile:
             reader = csv.DictReader(csvfile)
             for row in reader:
                 if row['From'] == pair[0]:
@@ -168,7 +168,7 @@ def config():
 htmlLocation = 'http://127.0.0.1:5000'
 webbrowser.open_new_tab(htmlLocation)
 
-app.run()
+# app.run()
 
 
 

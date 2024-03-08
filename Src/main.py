@@ -7,7 +7,7 @@ import yaml
 import mongodb
 from Database import API_Handling
 import refCalc
-
+import GUI
 
 seed = None
 
@@ -355,4 +355,4 @@ def start(skipPrompts):
 if __name__ == "__main__":
     start(False)
    
-   
+GUI.app.run()
