@@ -1,6 +1,5 @@
 import Build_Adj_matrix
 import International_Nw_build
-import buildNet
 import neighborCalc
 import shortest_paths
 import ActiveCities
@@ -23,17 +22,18 @@ def runMe4th():
     shortest_paths.build_shortest_path()
 def runMeLast():
     ActiveCities.activeCities()
-
-runMe1st()
-print("1")
-runMe2nd()
-print("2")
-runMe3rd()
-print("3")
-runMe4th()
-print("4")
-runMeLast()
-print("5")
-        
     
+def genAllDatabases():
+    runMe1st()
+    print("1")
+    runMe2nd()
+    print("2")
+    runMe3rd()
+    print("3")
+    runMe4th()
+    print("4")
+    runMeLast()
+    print("5")
+        
+genAllDatabases()   
     

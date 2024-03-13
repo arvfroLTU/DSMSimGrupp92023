@@ -1,0 +1,13 @@
+seed: 28
+sellers: 2
+bidders: 2
+resource-usage: 1             #The percent of the total supply that is matched by demand so supply/demand=resourceusage.
+distance-limit: 5000        
+distance-penalty: 8.17
+slotsize: 1                   #The amount of auctions that will take place at the same instance.
+end-threshold: 3              #The amount of rounds in an auction that has to pass without new bids, for that auction to close
+min-block: 1
+max-block: 1
+fairnessPercent: 0.7          #fairness percent + ecopercent  = 1, these two decide whether fairness or ecofriendliness is to be prioritized in the calculation of the score variable and by what amount 
+ecoPercent: 0.3
+
