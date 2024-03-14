@@ -205,6 +205,7 @@ function changeInfo(x){
   calcRoute(sellerInfo[1], sellerInfo[3]+','+sellerInfo[7]+','+sellerInfo[11]);
 
   console.log(gridInfo);
+  //Sets the text with right info on results in the div with id info
   document.getElementById("info").innerHTML = "<div><h1>Buyer</h1><p>Location: "+sellerInfo[1]+","+info[0]+"</p><p>Score = "+buy[3]+ "</p><p>Fairness index = "+buy[2]+ "<p>Eco score = "+buy[4]+"</p></div><div class='infoInner'><div class='infoInnerDiv'><h2>Seller 0</h2></p><p>Location = "+sellerInfo[3]+","+info[1]+ "</p></div><div class='infoInnerDiv'><h2>Seller 1</h2></p><p>Location = "+sellerInfo[7]+","+info[3]+"</div></div><div class='infoInnerDiv'><h2>Seller 2</h2></p><p>Location = "+sellerInfo[11]+","+info[5];
 
 }
