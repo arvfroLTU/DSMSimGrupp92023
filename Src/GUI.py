@@ -92,4 +92,4 @@ def config():
 htmlLocation = 'http://127.0.0.1:5000'
 webbrowser.open_new_tab(htmlLocation)
 
-app.run()
+# app.run()
